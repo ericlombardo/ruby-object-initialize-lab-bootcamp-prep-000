@@ -1,11 +1,8 @@
 # creates Person class
-
-# creates #initialize and accepts name
-
-# creates a instance variable for name
-
 class Person
+  # creates #initialize and accepts name
   def initialize(name)
+    # creates a instance variable for name
     @name = name
   end
 end
