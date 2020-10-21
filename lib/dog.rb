@@ -4,9 +4,9 @@
 # stores dog's breen in @breed variable
 
 class Dog
-  def initialize(dogs_name, breed = "Mutt")
-    def dogs_name=(dogs_name)
-      @dogs_name = dogs_name
+  def initialize(name, breed = "Mutt")
+    def name=(name)
+      @name = name
     end
     def breed=(breed)
       @breed = breed
